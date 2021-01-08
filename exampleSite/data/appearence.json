@@ -1,0 +1,38 @@
+{
+  "bool": {
+    "alwaysopen": true,
+    "borders": false,
+    "mascot": false,
+    "use_json_file": false
+  },
+  "ext": {
+    "bottom": "0",
+    "height": "500px",
+    "images": [
+      "image1.png",
+      "image2.png",
+      "image3.png"
+    ],
+    "opacity": ".2",
+    "right": "0",
+    "width": "400px"
+  },
+  "style": {
+    "background": "#282a36",
+    "border_color": "#e4756b",
+    "border_width_hovered": "2px 0",
+    "border_width_normal": "0",
+    "focus_bg_color": "#454757",
+    "focus_color": "#e4756b",
+    "foreground": "#3c3e4d ",
+    "heading_color": "#e4756b",
+    "heading_font": "DejaVu Sans",
+    "heading_font_size": "14px",
+    "link_color": "#c1cadd",
+    "link_font": "DejaVu Sans",
+    "link_font_size": "14px",
+    "search_bg_color": "#454757",
+    "search_color": "#c1cadd",
+    "square_size": "175"
+  }
+}

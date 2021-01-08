@@ -1,0 +1,16 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Keystart"
+theme = "keystart"
+
+bildDrafts = true
+
+[outputs]
+home = ["keystartconfig"]
+
+[outputFormats]
+
+[outputFormats.keystartconfig]
+mediaType = "application/json"
+baseName = "config"
+path = "/"

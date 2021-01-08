@@ -1,0 +1,35 @@
+{
+  "prefix": "-",
+  "searchEngines": [
+    {
+      "name": "google",
+      "opt": "g",
+      "space": "+",
+      "url": "https://www.google.com/#q="
+    },
+    {
+      "name": "reddit",
+      "opt": "r",
+      "space": "+",
+      "url": "https://www.reddit.com/search?q="
+    },
+    {
+      "name": "wikipedia",
+      "opt": "w",
+      "space": "+",
+      "url": "https://en.wikipedia.org/w/index.php?search="
+    },
+    {
+      "name": "youtube",
+      "opt": "y",
+      "space": "+",
+      "url": "https://www.youtube.com/results?search_query="
+    },
+    {
+      "name": "duckduckgo",
+      "opt": "d",
+      "space": "+",
+      "url": "https://www.duckduckgo.com/?q="
+    }
+  ]
+}
