@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "startpage",
+    "short_name": "startpage",
+    "version": "1.7.3",
+    "description": "Overrides the browsers newtab and homepage with a custom startpage.",
+    "author": "etacarinaea",
+
+    "icons": {
+      "48": "img/icon.svg",
+      "96": "img/icon.svg"
+    },
+
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "chrome_settings_overrides" : {
+      "homepage": "index.html"
+    }
+}
