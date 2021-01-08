@@ -1,0 +1,12 @@
+{{- $searchOptions := $.Site.Data.search.searchEngines -}}
+{{- $searchPrefix := $.Site.Data.search.prefix -}}
+{{- $search := dict "name" "search" "options" $searchOptions "prefix" $searchPrefix -}}
+
+{{- $squares := $.Site.Data.squares.squares -}}
+{{- $squares = $squares | append $search -}}
+
+{{- $bool := $.Site.Data.appearence.bool -}}
+{{- $style := $.Site.Data.appearence.style -}}
+{{- $ext := $.Site.Data.appearence.ext -}}
+{{/*-----------------The core getting it all together------------- */}}
+{{- dict "squares" $squares "bool" $bool "style" $style "ext" $ext | jsonify (dict "prefix" " " "indent" "  ") -}}

@@ -246,11 +246,16 @@ function main(){
 
 
 document.addEventListener("DOMContentLoaded", function(event){
-    if(localStorage.config === undefined){
+  $.loadJSON("config.json", function(data){
+    loadConfig(data, main);
+  });
+  console.log(data);
+  /*  if(localStorage.config === undefined){
         $.loadJSON("config.json", function(data){
             loadConfig(data, main);
         });
     }else{
         loadConfig(JSON.parse(localStorage.config), main);
     }
+    */
 });
